@@ -1,0 +1,53 @@
+git(분산버전관리프로그램)           github(깃파일들이 저장될 수 있는 저장소/히스토리를 공유할 수 있는 공간)
+
+shift + insert
+
+
+
+git init
+git add README.md ->무시
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jeongaeree/illustrator.git
+git push -u origin main
+
+
+
+git init
+
+git remote add origin https://github.com/jeongaeree/illustrator.git
+
+git remote -v
+
+git status
+
+git add .
+
+git status
+
+git commit -m "first commit"
+
+git config --global user.name "Mona Lisa"
+
+git config --global user.email you@example.com
+
+git status
+
+git commit -m "first commit"
+
+git push origin master
+
+-------------------------------
+git init
+
+git status   ->(상태를 확인할때 쓰는 명령어)
+
+git add .   ->모든 폴더와 파일을 집중감시[유치장]에 추가하겠다.
+
+
+
+git commit -m"
+
+git remote -v 
+
+git push origin master
